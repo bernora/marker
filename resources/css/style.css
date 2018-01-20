@@ -108,6 +108,22 @@ nav span {
   padding: 1.1em;
 }
 
+.sidebar {
+  width: 200px;
+  border-right: 1px solid red;
+}
+
+.sidebar ul {
+
+}
+
+.sidebar li {
+  padding: 10px 15px;
+  text-align: center;
+  color: red;
+  border-bottom: 1px solid red;
+}
+
 .logo img {
   max-width: 4rem;
   padding: 0 0.5rem 0 0;
@@ -130,3 +146,13 @@ nav span {
 }
 
 /* Hero secton styling */
+
+.hero-container {
+  background-color: pink;
+}
+
+.hero-section__img {
+  padding: 1rem;
+}
+
+.hero-s
