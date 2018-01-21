@@ -132,6 +132,26 @@ img {
   min-height: 27rem;
 }
 
+/* Main Promo Item Styling */
+
+.main-promo {
+ padding: 2rem 1.5rem;
+}
+
+.main-promo__title {
+  margin: 0;
+}
+
+/*Product Highlights styling */
+
+.secondary-promo__title {
+   padding: 2rem 0 0 0;
+}
+
+.product-highlights {
+ padding: 2rem 1.5rem;
+}
+
 /*Google maps styling */
 
 #googleMap {
