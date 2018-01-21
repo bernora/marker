@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
   <head>
     <title>Marker Informatika Kft. Epson, Hewlett-Packard szaküzlet a Keleti
 pályaudvarhoz közel. Lézer is tintasugaras nyomtatók, szkennerek, nagyformátumú
 nyomtatók és kellékanyagai</title>
-    <link href='./resources/css/reset.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link href='./resources/css/style.css' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
     <meta name="keywords" content="Epson kellékanyag, receptnyomtató, receptnyomtatás, recept nyomtató, Epson Store, Epson tw-450 ajándék vászonnal és játékkal, Epson nyomtató, HP tintapatron HP nyomtató, HP lézernyomtató, Hewlett Packard, Canon kellékanyag, Projektor izzó,  nyomtató kellékanyag, szkenner, notebook akkumulátor">
     <meta name="description" content="Marker Informatika - Budapest egyik vezető Epson, Hewlett-Packard és Canon nyomtató, plotter, másoló, szkenner, toner, tintapatron forgalmazó üzlete">
     <meta name="abstract" content="Az egyik vezető nyomtató és tintapatron forgalmazó a Marker Informatika Kft.">
     <meta http-equiv="content-Language" content="hu">
-    <meta http-equiv="content-Type" content="text/html; charset=UTF-8">
     <meta name="author" content="informatika@marker.hu">
     <meta name="revisit-after" content="2 days">
     <meta name="copyright" content="Marker Informatika kft.">
@@ -21,77 +22,89 @@ nyomtatók és kellékanyagai</title>
 
   <body>
 
-    <!-- NAVIGATION SECTION STARTS -->
+    <!--NAVIGATION STARTS -->
 
-      <header class="navbar row--spacebetween">
-        <a class="logo row--middle--start" href="#">
-          <img src="./resources/images/marker-logo.png" alt="Home"/>
-          <span>Marker</span>
-          <span>Informatika</span>
-        </a>
-        <nav>
-          <span><a href="#">Lézernyomtatók</a></span>
-          <span><a href="#">Tintasugaras nyomtatók</a></span>
-          <span><a href="#">Képfeldolgozók</a></span>
-          <span><a href="#">Kellékanyagok</a></span>
-        </nav>
-      </header>
+    <nav class="navbar navbar-fixed-top">
 
-      <!-- Navigation markup for ***mobile*** starts-->
+      <div class="container-fluid">
 
-      <nav class="navbar--mobile row--spacebetween">
-        <a href="#"><img src="./resources/images/ic-logo.svg" alt="Home"/></a>
-        <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="On campus"/></a>
-        <a href="#"><img src="./resources/images/ic-online.svg" alt="Online"/></a>
-        <a href="#"><img src="./resources/images/ic-login.svg" alt="Login" /></a>
-      </nav>
+      <!-- Logo and brand starts -->
 
-      <!-- Navigation markup for ***mobile*** ends-->
-
-
-      <!-- NAVIGATION SECTION ENDS -->
-
-
-      <!-- HERO SECTION STARTS -->
-      <div class="sidebar">
-        <ul>
-          <li>Epson</li>
-          <li>HP</li>
-          <li>Canon</li>
-        </ul>
-      </div>
-      <!-- <div class="hero-container row--strech">
-        <div class="hero-section__img">
-          <img src="./resources/images/t5200-cad-architect.jpg" alt="EPSON SureColor SC-T3200" />
+        <div class="navbar-header">
+          <a class="navbar-brand row" href="#">
+            <img alt="Brand" src="./resources/images/marker-logo.png">
+            <span>Marker</span>
+            <span>Informatika</span>
+          </a>
         </div>
-        <div class="hero-section__detail">
-          <div class="hero-section__detail__title">
-          </div>
-          <div class="hero-section__detail__copy">
-          </div>
-          <div class="button">
-          </div>
-        </div>
-      </div> -->
+
+      <!-- Navigaton items start -->
+
+        <ul class="nav navbar-nav navbar-right">
+
+        <!-- First Dropdown -->
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gyártók <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Epson</a></li>
+              <li><a href="#">HP</a></li>
+              <li><a href="#">Canon</a></li>
+              <li><a href="#">Kyocera</a></li>
+              <li><a href="#">Samsung</a></li>
+              <li><a href="#">Brother</a></li>
+            </ul>
+          </li>
+
+        <!-- Second Dropdown -->
+
+         <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nyomtatók <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+             <li><a href="#">Nagyformatumú</a></li>
+             <li><a href="#">Lézer</a></li>
+             <li><a href="#">Tintasugaras</a></li>
+             <li><a href="#">Multifunkciós</a></li>
+             <li><a href="#">Színes</a></li>
+             <li><a href="#">Fekete-fehér</a></li>
+           </ul>
+         </li>
+
+         <!-- First Nav link -->
+         <li><a href="#">Képfeldolgozók</a></li>
+
+         <!-- Second Nav link -->
+         <li><a href="#">Kellékanyagok</a></li>
+
+         <!-- Third Nav link -->
+         <li><a href="#">Kapcsolat</a></li>
+
+       </ul>
+    </div>
+  </nav>
+
+  <!-- Navigaton items end -->
+
+  <!--NAVIGATION ENDS -->
 
 
-<!--
-        <div class="container background--dark font--light row--strech" id="hero-section" role="presentation">
-          <div class="#" role="presentation">
-            <a href="#"><img class="hero-main-content__img" src="./resources/images/banner.jpg" alt="Students studying"></a>
-          </div>
-          <div class="side-bar side-bar--middle column--start--space-between" role="presentation">
-            <div class="hero-sidebar__description" role="presentation">
-              <h1 class="title-first"><a href="#">Learn something new everyday</a></h1>
-              <h2 class="title-third">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-              <a class="button" href="#">Start here</a>
-            </div>
-          </div>
-        </div>
--->
+  <!--JUMBOTRON STRATS -->
 
-      <!-- HERO SECTION ENDS -->
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <h1>Hello, world!</h1>
+      <p>...</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
+  </div>
 
 
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
