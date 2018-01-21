@@ -4,6 +4,7 @@
 body {
   font-size: 16px;
   font-family: "Roboto", Arial, sans-serif;
+  padding-top: 6rem;
 }
 
 a {
@@ -22,7 +23,7 @@ img {
 
 /*Row*/
 
-.row {
+.flex-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -30,7 +31,7 @@ img {
   align-items: center;
 }
 
-.row--strech {
+.flex-row--strech {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -38,21 +39,21 @@ img {
   align-items: stretch;
 }
 
-.row--top--center {
+.flex-row--top--center {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
 }
 
-.row--spacebetween {
+.flex-row--spacebetween {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.row--middle--start {
+.flex-row--middle--start {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -61,7 +62,7 @@ img {
 
 /*Column*/
 
-.column {
+.flex-column {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +70,7 @@ img {
   justify-content: center;
 }
 
-.column--spacebetween {
+.flex-column--spacebetween {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,21 +78,20 @@ img {
   justify-content: space-between;
 }
 
-.column--right--top {
+.flex-column--right--top {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
 
-
 /* Navigation bar styling */
 
 .navbar {
-  height: 4rem;
   color: #403d39;
+  padding: 0.5rem;
+  font-size: 1.8rem;
   font-weight: 400;
-  padding: 0 1.5rem;
   background-color: #ffffff;
   border-bottom: 1px solid #ebebeb;
   z-index: 5;
@@ -99,6 +99,7 @@ img {
 
 .navbar-brand {
   padding: 0;
+  font-size: 2rem;
 }
 
 .navbar-brand img {
@@ -118,12 +119,29 @@ img {
 }
 
 
-/* Hero section styling *
+/* JUMBOTRON section styling */
 
-.hero-container {
-  background-color: pink;
+.jumbotron h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 10rem 0;
 }
 
-.hero-section__img {
-  padding: 1rem;
+.jumbotron {
+  text-align: center;
+  min-height: 27rem;
+}
+
+/*Google maps styling */
+
+#googleMap {
+  margin: 2rem 0;
+}
+
+/*Footer styling */
+
+footer .glyphicon {
+   font-size: 20px;
+   margin-bottom: 20px;
+   color: #f4511e;
 }
